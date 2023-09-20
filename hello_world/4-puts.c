@@ -1,6 +1,8 @@
 #include <stdio.h>
 /*
  * main-Writing_a_string
+ *
+ * return 0
  */
 int main(void)
 {
