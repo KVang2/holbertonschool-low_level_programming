@@ -1,8 +1,8 @@
 #include <stdio.h>
-/*
- * main - Writing_a_string
+/**
+ * main - Writing a string
  *
- * return 0
+ * Return: 0
  */
 int main(void)
 {
