@@ -1,5 +1,5 @@
 #include <stdio.h>
-/**
+/*
  * main-Writing_a_string 
  */
 int main(void)
