@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - Writing a string 
+ * main-Writing_a_string 
  */
-int main (void)
+int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
 return (0);
