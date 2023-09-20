@@ -6,11 +6,11 @@
  */
 int main(void)
 {
-	char charType
-	int integerType
-	long int integerTypel
-	long long int integerTypell
-	float floatType
+	char charType;
+	int integerType;
+	long int integerTypel;
+	long long int integerTypell;
+	float floatType;
 
 	printf("Size of a char: %zu byte(s)\n", sizeof(charType));
 	printf("Size of a int: %zu byte(s)\n", sizeof(intergerType));
