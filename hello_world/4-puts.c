@@ -1,4 +1,4 @@
-#!/bin/bash
+#include <stdio.h>
 /**
  * main - Writing a string 
  */
