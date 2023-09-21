@@ -12,7 +12,8 @@ int main(void)
 	{
 		putchar(x);
 		if (x < 97)
-	{
+		{
+		}
 	}
 putchar('\n');
 return (0);
