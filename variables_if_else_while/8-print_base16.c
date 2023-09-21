@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * 
+ *
  * main - Hexadecimal
  *
  * Return: 0
@@ -16,5 +16,5 @@ int main(void)
 		printf("%x", x);
 	}
 	printf("\n");
-	return(0);
+	return (0);
 }
