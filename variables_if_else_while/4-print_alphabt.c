@@ -10,7 +10,7 @@ int main(void)
 
 	for (n = 'a'; n <= 'z' ; n++)
 	if
-		n in [q,e]
+		n in [101,113]
 		putchar(n);
 
 putchar('\n');
