@@ -9,10 +9,11 @@ int main(void)
 	int n;
 
 	for (n = 'a'; n <= 'z' ; n++)
+	{
 	if
-		n in [101,113]
+		(n != 'q' && n != 'e');
 		putchar(n);
-
+	}
 putchar('\n');
 return (0);
 }
