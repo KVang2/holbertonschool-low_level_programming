@@ -1,11 +1,10 @@
 #include "main"
 /**
- *
  * print_last_digit - last digit of a number
  *
  * Return: 0
 */
-int print_last_digit(int n)
+int print_last_digit(int n);
 {
 	int x;
 
