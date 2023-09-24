@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * Jack_bauer - printing every minute
+ * jack_bauer - printing every minute
  *
  * Return: void
 */
-void Jack_bauer(void)
+void jack_bauer(void)
 {
 	int h, m;
 
