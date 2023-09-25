@@ -15,8 +15,8 @@ void times_table(void)
 			z = x * y;
 			if (z > 9)
 			{
-				a= z % 10;
-				b= (z - a) / 10;
+				a = z % 10;
+				b = (z - a) / 10;
 
 				_putchar(44);
 				_putchar(32);
