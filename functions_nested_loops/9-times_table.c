@@ -4,7 +4,7 @@
  *
  *
  *
- * Return: 0
+ * Return: void
 */
 void times_table(void)
 {
@@ -16,14 +16,19 @@ void times_table(void)
 		{
 			z = x * y;
 			if (y == 0)
-				_putchar("%d, ", z);
+			{
+				_putchar(z + '0');
+			}
 			else
 			{
-				_putchar("%2d, ", z);
+				_putchar(z / 10 + '0');
+				_putchar(z % 10 + '0');
 				if (y != 9)
+				{
 					_putchar(", ");
+				}
 			}
 		}
 		_putchar("\n");
-	}		
+	}
 }
