@@ -2,7 +2,7 @@
 /**
  * times_table - times table
  *
- * Return: 0
+ * Return: void
 */
 void times_table(void)
 {
@@ -13,7 +13,7 @@ void times_table(void)
 		for (y = 0; y <= 9; y++)
 		{
 			z = x * y;
-			if (y > 9)
+			if (z > 9)
 			{
 				a= z % 10;
 				b= (z - a) / 10;
