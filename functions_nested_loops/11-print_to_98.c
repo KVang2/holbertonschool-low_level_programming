@@ -2,14 +2,14 @@
 #include <stdio.h>
 /**
  * print_to_98 - printing numbers
- *
- * Return: int n
+ * @n: numbers to print
+ * Return: 0
 */
 void print_to_98(int n)
 {
 	int m;
-	
-	if (n >= 0; n <= 98; n++)
+
+	if (n >= 0 && n <= 98 ; n++)
 	{
 		for (m = n; m <= 98; m++)
 		{
@@ -34,5 +34,5 @@ void print_to_98(int n)
 		printf('\n');
 	}
 	else if (n == 98)
-		printf("%d\n", n);I
+		printf("%d\n", n);
 }
