@@ -4,9 +4,9 @@
  * @c: uppercase character
  * Return: 0
 */
-int _isupper(int c);
+int _isupper(int c)
 {
-	for (c >= 'A'; c <= 'Z'; c++)
+	if (c >= 'A' && c <= 'Z')
 	{
 		return (1);
 	}
