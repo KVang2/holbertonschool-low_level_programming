@@ -8,15 +8,15 @@ int main(void)
 {
 	for x in {1..100}
 	{
-		if (( x % 3 == 0 && x % 5 == 0));
+		if ((x % 3 == 0 && x % 5 == 0))
 		{
 			_putchar("FizzBuzz");
 		}
-		else if (( x % 3 == 0 ));
+		else if ((x % 3 == 0))
 		{
 			_putchar("Fizz");
 		}
-		else if (( x % 5 == 0 ));
+		else if ((x % 5 == 0))
 		{
 			_putchar("Buzz");
 		}
