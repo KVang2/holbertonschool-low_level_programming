@@ -24,10 +24,10 @@ int main(void)
 		}
 		else
 		{
-			printf("%d\n", x);
+			printf("%d",x);
 		}
 	}
-	printf("Buzz");
+	printf("Buzz\n");
 	putchar('\n');
 	return (0);
 }
