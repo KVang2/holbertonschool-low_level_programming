@@ -1,4 +1,4 @@
-#include "main.h"
+#include "stdio.h"
 /**
  * main - fizzbuzzer
  *
@@ -24,9 +24,9 @@ int main(void)
 		}
 		else
 		{
-			printf("%d",x;)
+			printf("%d",x);
 		}
+	}
 	_putchar('\n');
 	return (0);
-	}
 }
