@@ -5,7 +5,7 @@
  * @b: var2
  * Return: void
 */
-void swap_int(int *a, int *b);
+void swap_int(int *a, int *b)
 {
 	int *a: int *a = int *b
 }
