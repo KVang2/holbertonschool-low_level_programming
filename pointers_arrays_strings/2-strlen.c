@@ -4,7 +4,7 @@
  *
  * @s: string
  *
- * Return: void
+ * Return: 0
 */
 int _strlen(char *s)
 {
@@ -18,4 +18,5 @@ int _strlen(char *s)
 		}
 	_putchar('\n');
 	}
+return (0);
 }
