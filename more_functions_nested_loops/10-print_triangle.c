@@ -16,7 +16,7 @@ void print_triangle(int size)
 		{
 			if (h >= w)
 			{
-				_putchar('# ');
+				_putchar('#');
 			}
 			else
 			{
