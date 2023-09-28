@@ -12,7 +12,7 @@ void print_triangle(int size)
 
 	for (h = 0; h < size; h++)
 	{
-		for (w = size; w >= 0; w--)
+		for (w = size; w >= 1; w--)
 		{
 			if (h >= w)
 			{
