@@ -4,7 +4,7 @@
  *
  * @s: string
  *
- * Return: count
+ * Return: 0
 */
 int _strlen(char *s)
 {
@@ -12,11 +12,11 @@ int _strlen(char *s)
 
 	for (l = 0; s[l]; l++)
 	{
-		if (s[l] != 0 )
+		if (s[l] != 0)
 		{
 		_putchar(*s);
 		}
 	_putchar('\n');
 	}
-return (count);
+return (0);
 }
