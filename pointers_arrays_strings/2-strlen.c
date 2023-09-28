@@ -4,19 +4,17 @@
  *
  * @s: string
  *
- * Return: 0
+ * Return: count
 */
 int _strlen(char *s)
 {
 	int l;
 
-	for (l = 0; s[l]; l++)
+	for (l = 0; s[l] != '\0'; ++l);
 	{
-		if (s[l] != 0)
-		{
-			_putchar(*s);
-		}
+		_putchar(*s);
+	}
 	_putchar('\n');
 	}
-return (0);
+return count;
 }
