@@ -8,5 +8,14 @@
 */
 int _strlen(char *s)
 {
-	strlen(const char *s)
+	int l;
+
+	for (l = 0; s[l]; l++)
+	{
+		if (s[l] != 0)
+		{
+			_putchar(*s);
+		}
+	_putchar('\n');
+	}
 }
