@@ -10,18 +10,15 @@ void print_triangle(int size)
 {
 	int h, w;
 
-	for (h = 0; h <= size; h++)
+	for (h = 1; h <= size; h++)
 	{
-		for (w = size; w >= 1; w--)
+		for (w = h; w < size; w++)
 		{
-			if (h >= w)
-			{
-				_putchar('#');
-			}
-			else
-			{
-				_putchar(' ');
-			}
+			_putchar(' ');
+		}
+		for (w = 1; w <= h; w++)
+		{
+			_putchar('#');
 		}
 		_putchar('\n');
 	}
