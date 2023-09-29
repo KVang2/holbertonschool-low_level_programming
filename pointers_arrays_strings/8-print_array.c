@@ -1,0 +1,18 @@
+#include "main.h"
+#include <stdio.h>
+/**
+ * print_array - array of integers
+ * @a: input 1
+ * @n: input 2
+ * Return: 0
+*/
+void print_array(int *a, int n)
+{
+	int i;
+
+		for (i = 0; i < n; i++)
+		{
+			printf("%d, ", a[i]);
+		}
+		printf("\n");
+}
