@@ -1,12 +1,12 @@
 #include "main.h"
 /**
  * puts_half - half of a string
- *
+ * @str: input
  * Return: 0
 */
 void puts_half(char *str)
 {
-	int n, l1, l2;
+	int i, l1, l2;
 
 	l1 = (_strlen(str) - 1);
 	l2 = (l1 / 2);
