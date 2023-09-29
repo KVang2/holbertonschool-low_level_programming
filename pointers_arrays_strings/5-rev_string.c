@@ -3,9 +3,9 @@
  * rev_string - reverses a string
  *
  * @s: string
- * Return: 0
+ * Return: strings
 */
-void print_rev(char *s)
+void rev_string(char *s)
 {
 	char rev = s[0];
 	int len = 0;
