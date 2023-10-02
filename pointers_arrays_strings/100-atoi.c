@@ -14,13 +14,13 @@ int _atoi(char *s)
 	}
 	while (i < x && y == 0)
 	{
-		if (s[i] == 45)
+		if (s[i] == '-')
 		{
 			++w;
 		}
-		if (s[i] >= 48 && s[i] <= 57)
+		if (s[i] >= '0' && s[i] <= '9')
 		{
-			m = s[i] - 48;
+			m = s[i] - '0';
 		}
 		if (w % 2)
 		{
@@ -28,7 +28,7 @@ int _atoi(char *s)
 			n = n * 10 + m;
 			y = 1;
 		}
-		if (s[i + 1] < 48 && s[i + 1] > 57)
+		if (s[i + 1] < '0' && s[i + 1] > '9')
 		{
 			break;
 			y = 0;
