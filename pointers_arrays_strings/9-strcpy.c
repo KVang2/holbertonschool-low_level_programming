@@ -8,6 +8,7 @@
 char *_strcpy(char *dest, char *src)
 {
 	int d, s;
+	s = 0
 
 	for (d = 0; d < s && src[d] != '\0'; d++)
 	{
