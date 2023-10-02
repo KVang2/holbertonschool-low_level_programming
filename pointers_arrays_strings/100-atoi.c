@@ -6,7 +6,7 @@
 */
 int _atoi(char *s)
 {
-	int i, x, y, w, n, m;
+	int i, y, w, m;
 
 	y = 1;
 
@@ -16,7 +16,7 @@ int _atoi(char *s)
 		{
 			w++;
 		}
-		if (m > 0 && s[i] < '0' || s[i] > '9')
+		if (m > 0 '&&' s[i] < '0' || s[i] > '9')
 		{
 			break;
 		}
