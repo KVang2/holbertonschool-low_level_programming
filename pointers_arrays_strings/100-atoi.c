@@ -8,13 +8,6 @@ int _atoi(char *s)
 {
 	int i, x, y, w, n, m;
 
-	i = 0;
-	x = 0;
-	y = 0;
-	w = 0;
-	n = 0;
-	m = 0;
-
 	while (s[x] != '\0')
 	{
 		x++;
@@ -36,15 +29,11 @@ int _atoi(char *s)
 			y = 1;
 		}
 		if (s[i + 1] < '0' || s[i + 1] > '9')
-		{
 			break;
 			y = 0;
-		}
 		i++;
 	}
 	if (y == 0)
-	{
 	return (0);
-	}
 return (n);
 }
