@@ -16,7 +16,7 @@ int _atoi(char *s)
 		{
 			w++;
 		}
-		if (m > 0 && s[i] < '0' || s[i] > '9')
+		if (m > 0 '&&' s[i] < '0' '||' s[i] > '9')
 		{
 			break;
 		}
