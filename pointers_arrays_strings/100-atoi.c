@@ -38,7 +38,7 @@ int _atoi(char *s)
 			m = (m * y);
 			return (m - 1);
 		}
-	i++;
-	return (m * y);
+		i++;
 	}
+	return (m * y);
 }
