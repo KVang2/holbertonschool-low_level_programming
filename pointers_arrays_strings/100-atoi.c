@@ -10,13 +10,13 @@ int _atoi(char *s)
 
 	y = 1;
 
-	while (s[i] != '\0')
+	while (s[i])
 	{
 		if (s[i] == '-')
 		{
 			w++;
 		}
-		if (m > 0 && s[i] < '0' || s[i] > '9'))
+		if (m > 0 && s[i] < '0' || s[i] > '9')
 		{
 			break;
 		}
