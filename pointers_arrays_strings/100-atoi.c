@@ -1,31 +1,41 @@
 #include "main.h"
 /**
-* int _atoi - string to an integer
-* @s: string
-* Return: 0
+ * _atoi - converting a string to an integer
+ * @s: infinite number of chars
+ * Return: 0
 */
 int _atoi(char *s)
 {
-	int c, n, m, i;
+	int i, y, w, m;
 
-	while (s[c])
+	y = 1;
+
+	while (s[i] != '\0')
 	{
-	if (s[c] == 45)
-	{
-		m *= -1;
-	}
-	while (s[c] >= 48 && s[c] <= 57)
-	{
-		i = 1;
-		n = (n * 10) + (s[c] - '0');
-		c++;
-	}
-		if (i == 1)
+		if (s[i] == '-')
 		{
-		break;
+			w++;
 		}
-		c++;
+		if (m > 0 && s[i] < '0' || s[i] > '9'))
+		{
+			break;
+		}
+		if (s[i] >= '0' && (s[i] <= '9'))
+		{
+			if (m * 10 == 2147483640 && s[i] == '8')
+				m = (m * 10) + 7;
+			else
+				m = (m * 10) + (s[i] - '0');
+		}
+		if (w % 2 == 1)
+		{
+			y = -1;
+		}
+		if (m == 2147483647 && y == -1)
+		{
+			m = (m * y);
+				return (m - 1);
+		}
 	}
-		n *= m;
-	return (n);
+	return (m * y);
 }
