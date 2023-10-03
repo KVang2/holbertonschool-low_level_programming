@@ -16,7 +16,7 @@ int _atoi(char *s)
 		{
 			w++;
 		}
-		if (m > 0 && s[i] < '0' || s[i] > '9')
+		if (m > 0) && (s[i] < '0' || s[i] > '9')
 		{
 			break;
 		}
@@ -36,6 +36,7 @@ int _atoi(char *s)
 			m = (m * y);
 				return (m - 1);
 		}
+		i++;
 	}
 	return (m * y);
 }
