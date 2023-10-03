@@ -29,6 +29,8 @@ int _atoi(char *s)
 			else
 				m = (m * 10) + (s[i] - '0');
 		}
+		i++;
+	}
 	if (w % 2 == 1)
 	{
 			y = -1;
@@ -37,8 +39,6 @@ int _atoi(char *s)
 	{
 		m = (m * y);
 		return (m - 1);
-	}
-		i++;
 	}
 	return (m * y);
 }
