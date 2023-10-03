@@ -29,16 +29,16 @@ int _atoi(char *s)
 			else
 				m = (m * 10) + (s[i] - '0');
 		}
-		i++;
-	}
-	if (w % 2 == 1)
-	{
+		if (w % 2 == 1)
+		{
 			y = -1;
-	}
+		}
 	if (m == 2147483647 && y == -1)
-	{
-		m = (m * y);
-		return (m - 1);
-	}
+		{
+			m = (m * y);
+			return (m - 1);
+		}
+	i++;
 	return (m * y);
+	}
 }
