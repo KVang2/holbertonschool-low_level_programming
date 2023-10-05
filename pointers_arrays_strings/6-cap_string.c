@@ -14,7 +14,7 @@ char *cap_string(char *src)
 		{
 			i++;
 		}
-		if (src[i - 1] == '' ||
+		if (src[i - 1] == ' ' ||
 		src[i - 1] == '\t' ||
 		src[i - 1] == '\n' ||
 		src[i - 1] == ',' ||
