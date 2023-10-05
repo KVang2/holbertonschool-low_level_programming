@@ -30,7 +30,7 @@ char *cap_string(char *src)
 		i == 0)
 			src[i] -= 32;
 
-		i++
+		i++;
 	}
 return (src);
 }
