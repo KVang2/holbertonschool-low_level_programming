@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * alloc_grd - 2 dimensional array of integers
+ * alloc_grid - 2 dimensional array of integers
  * @width: x
  * @height: y
  * Return: 0
