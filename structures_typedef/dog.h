@@ -2,7 +2,7 @@
 #define MAIN_H
 
 /**
- * struct dog - description
+ * struct dog - type
  * @name: dog name, character type
  * @age: dog age, float type
  * @owner: dog owner, character type
