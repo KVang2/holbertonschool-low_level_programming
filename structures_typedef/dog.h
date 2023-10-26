@@ -7,6 +7,12 @@
  * @age: dog age, float type
  * @owner: dog owner, character type
 */
+
+/**
+ * dog_t - new name type
+*/
+
+typedef struct dog dog_t;
 struct dog
 {
 	char *name;
