@@ -8,6 +8,8 @@
 */
 size_t print_list(const list_t *h)
 {
+	struct Node *newNode = (struct Node *)malloc(sizeof (struct Node));
+
 	int i = 0;
 
 	while (h != NULL)
