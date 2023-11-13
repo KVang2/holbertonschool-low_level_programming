@@ -6,9 +6,11 @@
 */
 void print_binary(unsigned long int n)
 {
-	if (n)
+	int i;
+
+	if (n == 0)
 	{
-		print_binary(n >> 1);
+		print_binary(n >> 1, i - 1);
 		putchar((n & 1) ? '1' : '0');
 	}
 }
