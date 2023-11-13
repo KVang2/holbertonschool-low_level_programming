@@ -11,11 +11,12 @@ listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 	unsigned int i = 0;
 
 	current = head;
-
+/* check list to see if its empty */
 	if (head == NULL)
 	{
 		return (NULL);
 	}
+/* loop through the list */
 	while (current != NULL)
 	{
 		if (i == index)
