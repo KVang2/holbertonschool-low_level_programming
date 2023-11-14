@@ -22,8 +22,8 @@ int append_text_to_file(const char *filename, char *text_content)
 
 	if (text_content)
 	{
-		for (l = 0; text_content[l]; l++)
-			;
+		for (l = 0; text_content[l]; l++);
+
 		wr = write(crt, text_content, l);
 	
 		if (wr == -1)
