@@ -20,6 +20,6 @@ size_t print_dlistint(const dlistint_t *h)
 		}
 		h = h->next;
 	}
-	printf("[%d] %s\n", h->n);
+	printf("[%d] %s\n", h->n, h->prev);
 	return (i);
 }
