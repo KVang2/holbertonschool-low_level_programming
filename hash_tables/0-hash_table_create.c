@@ -15,11 +15,11 @@ hash_table_t *hash_table_create(unsigned long int size)
 	{
 		return (NULL);
 		table->size = size;
-		table->array = malloc(table->size, sizeof(hash_node_t));
+		table->array = malloc(sizeof(hash_node_t) *table->size);
 	}
 	for (i = 0; i < table->sizes; i++)
 	{
-	table->items[i] = NULL;
+	table->array[i] = NULL;
 	}
 	return (table);
 }
