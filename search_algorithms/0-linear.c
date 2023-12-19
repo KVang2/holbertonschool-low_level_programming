@@ -1,4 +1,4 @@
-#include "main.h"
+#include "search_algos_h"
 /**
  * linear_search - searches for a value in an array of int
  * @array: array of int
@@ -12,8 +12,8 @@ int linear_search(int *array, size_t size, int value)
 
 	for (i = 0; i < size; i++)
 	{
-		printf("Checking %d with %d\n", array[i], target);
-		if (array[i] == target)
+		printf("Checking %d with %d\n", array[i], value);
+		if (array[i] == value)
 		{
 			return (i);
 		}
